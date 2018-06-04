@@ -41,6 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Args\AnswerEventArgs.cs" />
+    <Compile Include="Args\CallEventArgs.cs" />
+    <Compile Include="Args\EndCallEventArgs.cs" />
+    <Compile Include="ATE\CallInformation.cs" />
+    <Compile Include="ATE\Port.cs" />
+    <Compile Include="ATE\Terminal.cs" />
+    <Compile Include="Billing\BillingSystem.cs" />
     <Compile Include="Billing\Contract.cs" />
     <Compile Include="Billing\Report.cs" />
     <Compile Include="Billing\ReportRecord.cs" />
@@ -52,17 +59,18 @@
     <Compile Include="Enums\PortState.cs" />
     <Compile Include="Enums\TariffType.cs" />
     <Compile Include="Enums\TypeSort.cs" />
+    <Compile Include="Interfaces\IATE.cs" />
+    <Compile Include="Interfaces\IBillingSystem.cs" />
+    <Compile Include="Interfaces\ICallingEventArgs.cs" />
     <Compile Include="Interfaces\IContract.cs" />
     <Compile Include="Interfaces\IReportRender.cs" />
+    <Compile Include="Interfaces\IStorage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Args\" />
-    <Folder Include="ATE\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
