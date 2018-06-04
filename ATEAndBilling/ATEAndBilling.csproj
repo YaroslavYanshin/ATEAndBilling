@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\CallState.cs" />
+    <Compile Include="Enums\CallType.cs" />
+    <Compile Include="Enums\PortState.cs" />
+    <Compile Include="Enums\TariffTypes.cs" />
+    <Compile Include="Enums\TypeSort.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -51,7 +56,6 @@
     <Folder Include="Args\" />
     <Folder Include="ATE\" />
     <Folder Include="Billing\" />
-    <Folder Include="Enums\" />
     <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
