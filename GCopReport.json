@@ -3,10 +3,15 @@
     {
       "Analyzer": "ConstantVariableAnalyzer",
       "OccurrenceCount": 1,
-      "Exceptions": {
-        "ArgumentException": "Синтаксический узел не находится в синтаксическом дереве.\r\n\r\nSource:\r\npublic class Contract : IContract\r\n{\r\n    static Random rnd = new Random();\r\n    public Subscriber Subscriber\r\n    {\r\n        get;\r\n        private set;\r\n    }\r\n\r\n    public int Number\r\n    {\r\n        get;\r\n        private set;\r\n    }\r\n\r\n    public Tariff Tariff\r\n    {\r\n        get;\r\n        private set;\r\n    }\r\n\r\n    private DateTime LastTariffUpdateDate;\r\n    public Contract(Subscriber subscriber, TariffType tariffType)\r\n    {\r\n        LastTariffUpdateDate = DateTime.Now;\r\n        Subscriber = subscriber;\r\n        Number = rnd.Next(1000000, 9999999);\r\n        Tariff = new Tariff(tariffType);\r\n    }\r\n\r\n    public bool ChangeTariff(TariffType tariffType)\r\n    {\r\n        if (DateTime.Now.AddMonths(-1) >= LastTariffUpdateDate)\r\n        {\r\n            LastTariffUpdateDate = DateTime.Now;\r\n            Tariff = new Tariff(tariffType);\r\n            Console.WriteLine(\"Tariff has changed!\");\r\n            return true;\r\n        }\r\n        else\r\n        {\r\n            Console.WriteLine(\"Цait until the end of the month!\");\r\n            return false;\r\n        }\r\n    }\r\n}"
-      },
-      "SentToServer": false,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "YAROSLAV"
+    },
+    {
+      "Analyzer": "LongMethodAnalyzer",
+      "OccurrenceCount": 2,
+      "Exceptions": null,
+      "SentToServer": true,
       "InstallationName": "YAROSLAV"
     }
   ]

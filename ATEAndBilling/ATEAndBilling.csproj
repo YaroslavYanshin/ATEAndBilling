@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Billing\Contract.cs" />
+    <Compile Include="Billing\Report.cs" />
+    <Compile Include="Billing\ReportRecord.cs" />
+    <Compile Include="Billing\ReportRender.cs" />
     <Compile Include="Billing\Subscriber.cs" />
     <Compile Include="Billing\Tariff.cs" />
     <Compile Include="Enums\CallState.cs" />
@@ -50,6 +53,7 @@
     <Compile Include="Enums\TariffType.cs" />
     <Compile Include="Enums\TypeSort.cs" />
     <Compile Include="Interfaces\IContract.cs" />
+    <Compile Include="Interfaces\IReportRender.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
