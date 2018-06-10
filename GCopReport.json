@@ -1,3 +1,32 @@
 {
-  "Items": []
+  "Items": [
+    {
+      "Analyzer": "ConstantVariableAnalyzer",
+      "OccurrenceCount": 1,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "YAROSLAV"
+    },
+    {
+      "Analyzer": "LongMethodAnalyzer",
+      "OccurrenceCount": 6,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "YAROSLAV"
+    },
+    {
+      "Analyzer": "OrderByWhereLinqAnalyzer",
+      "OccurrenceCount": 1,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "YAROSLAV"
+    },
+    {
+      "Analyzer": "IEnumerableMultipleEvaluationsAnalyzer",
+      "OccurrenceCount": 3,
+      "Exceptions": null,
+      "SentToServer": true,
+      "InstallationName": "YAROSLAV"
+    }
+  ]
 }
