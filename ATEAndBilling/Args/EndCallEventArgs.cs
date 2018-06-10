@@ -8,7 +8,7 @@ using ATEAndBilling.Enums;
 
 namespace ATEAndBilling.Args
 {
-    public class EndCallEventArgs
+    public class EndCallEventArgs : EventArgs, ICallingEventArgs
     {
         public Guid Id { get; private set; }
         public int TelephoneNumber { get; private set; }

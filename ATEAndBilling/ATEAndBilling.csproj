@@ -44,9 +44,10 @@
     <Compile Include="Args\AnswerEventArgs.cs" />
     <Compile Include="Args\CallEventArgs.cs" />
     <Compile Include="Args\EndCallEventArgs.cs" />
-    <Compile Include="ATE\CallInformation.cs" />
-    <Compile Include="ATE\Port.cs" />
-    <Compile Include="ATE\Terminal.cs" />
+    <Compile Include="AutomaticTelephoneExchange\ATE.cs" />
+    <Compile Include="AutomaticTelephoneExchange\CallInformation.cs" />
+    <Compile Include="AutomaticTelephoneExchange\Port.cs" />
+    <Compile Include="AutomaticTelephoneExchange\Terminal.cs" />
     <Compile Include="Billing\BillingSystem.cs" />
     <Compile Include="Billing\Contract.cs" />
     <Compile Include="Billing\Report.cs" />
